@@ -1,0 +1,109 @@
+/* Stile generale */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 130px;
+  background-color: rgb(225, 225, 225);
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 100%;
+  background-color: #282828;
+  color: white;
+  border-bottom: #004ea2 5px solid;
+}
+
+/* Titolo */
+.title {
+  margin: 0;
+  font-size: 34px;
+}
+
+/* Pulsante "Load more" */
+.load-more {
+  padding: 20px 40px;
+  margin-right: 30px;
+  font-size: 20px;
+  background-color: #007bff;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Cambia colore al passaggio del mouse sul pulsante */
+.load-more:hover {
+  background-color: #004ea2;
+}
+
+/* Contenitore delle notizie */
+.news-container {
+  padding: 25px;
+  text-align: center;
+}
+
+/* Singola notizia */
+.news-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #282828;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: #282828 5px 5px 5px 5px;
+}
+
+.news-item:hover {
+  transition: 2s;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: beige;
+}
+
+.news-item h2 {
+  margin: 0 0 20px 0;
+  color: #520000;
+  text-decoration: underline;
+}
+
+.news-item p {
+  margin: 0 0 20px 0;
+  color: rgb(1, 116, 1);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.news-item button {
+  padding: 15px 25px;
+  font-size: 16px;
+  background-color: #0980ff;
+  color: white;
+  border: 2px solid #282828;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.news-item button:hover {
+  background-color: #005aba;
+}
+
+footer p {
+  text-align: center;
+  font-size: 22px;
+}
+
+footer span {
+  color: rgb(1, 116, 1);
+  font-weight: bold;
+}
